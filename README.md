@@ -1,6 +1,3 @@
-[README.md](https://github.com/user-attachments/files/24530839/README.md)
-
-
 # 📝 PaperSmith (Markdown 智能编辑器)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![PyQt6](https://img.shields.io/badge/GUI-PyQt6-green) ![License](https://img.shields.io/badge/License-MIT-orange) ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
