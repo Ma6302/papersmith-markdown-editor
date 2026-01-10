@@ -60,7 +60,7 @@
 
 3.  **运行软件**
     ```bash
-    python input_file_0.py
+    python main.py
     ```
 
 ## 📖 使用指南
