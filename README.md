@@ -35,32 +35,39 @@
 
 ## 🛠️ 安装与运行
 
-### 方式一：直接运行 (源码)
+### 方式一：下载安装包 (推荐)
+适合普通用户，无需配置 Python 环境，开箱即用。
+
+1.  访问 **[Releases](https://github.com/Ma6302/papersmith-markdown-editor/releases/tag/v16.8)** 页面。
+2.  下载最新的 `.exe` 安装包。
+3.  双击安装即可使用（已内置 Pandoc 环境）。
+
+### 方式二：使用 Windows 终端 (源码运行)
+适合开发者，需要电脑已安装 Python 和 Git。
 
 1.  **克隆仓库**
-    ```
-    git clone https://github.com/Ma6302/papersmith.git
-    cd papersmith
+    打开 PowerShell 或 CMD，输入以下命令：
+    ```bash
+    git clone https://github.com/Ma6302/papersmith-markdown-editor.git
+    cd papersmith-markdown-editor
     ```
 
 2.  **安装依赖**
-    ```
+    ```bash
     pip install PyQt6 markdown pypandoc python-docx
     ```
-    *注意：您还需要在系统路径中安装 `pandoc`，或者让软件首次运行自动安装。*
+    *注意：源码运行模式下，您需要手动在系统环境变量中安装配置 `pandoc`。*
 
-3.  **运行**
+3.  **运行软件**
+    ```bash
+    python input_file_0.py
     ```
-    python main.py
-    ```
-
-### 方式二：下载发行版 (Windows)
-前往 [Releases](https://github.com/Ma6302/papersmith-markdown-editor/releases/tag/v16.8) 页面下载最新的 `.exe` 安装包，开箱即用（已内置 Pandoc 安装程序）。
 
 ## 📖 使用指南
 
 *   **同步滚动**：点击工具栏的 `🔗 同步` 按钮可开启/关闭预览区跟随。
 *   **插入元素**：工具栏提供了 `H` (标题), `B` (粗体), `I` (斜体), `▦` (表格), `🖼` (图片) 等快捷按钮。
+*   **快捷保存**：支持使用 `F12` 键快速唤起“另存为”对话框，保存文件更高效。
 *   **导出文档**：点击右上角的 `💾 保存` 按钮，选择 `.docx` 或 `.pdf` 格式即可导出。
 
 ## 🔧 技术栈
